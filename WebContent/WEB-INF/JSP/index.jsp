@@ -11,5 +11,6 @@
 <body>
 	<h1>Frituur Frida</h1>
 	<h2>Vandaag zijn we ${openGesloten}</h2>
+	<img src="images/${openGesloten == 'open' ? 'open.png' : 'gesloten.png'}" alt="${openGesloten}" title="${openGesloten}">
 </body>
 </html>
